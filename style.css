@@ -1,0 +1,102 @@
+
+/*@import url(octicons.css) */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+.container-fluid {
+    background-image: url("img/Cube.png"); 
+    text-align: center;
+    height: 100vh;
+    background-size: 100% 100%;
+    width:100%;
+}
+
+.nav {
+    height: 55px;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    
+}
+
+.center {
+    /* Center Text of Company Name, and Slogan. */
+    text-align: center;
+    margin-bottom:10px;
+    font-size: 30px;
+    padding-top: 135px;
+}
+
+.center h2,
+p {
+    font-family: 'Josefin Slab', serif;
+    font-size: 30px;
+    color: aquamarine;
+}
+
+.middle p#p1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    color: darkcyan;
+}
+
+.nav > a > i {
+    /* Selector Example */
+    margin: 10px;
+    float: right;
+    font-size: 30px;
+}
+
+.nav > h6 > a {
+    text-decoration: none;
+    margin: 5px;
+    font-family: 'Delius Swash Caps', sans-serif;
+    font-size: 30px;
+    float: left;
+}
+.bottom {
+    background-image: url(img/Bor.jpg);
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.middle{
+    width: 100%;
+    height: 400px;
+}
+
+ul li {
+    display: inline;
+}
+
+img#me {
+    width: 50%;
+    float: left;
+    /*
+    border: 1px solid red !important;
+    */
+    margin-right:50px;
+}
+
+.para {
+     border: 1px solid red !important;
+}
+@media screen and (min-width: 800px) {
+    img#me {
+        width: 400px;
+    }
+}
